@@ -126,6 +126,10 @@ body{
 }
 
 /* -----------------facilities------------ */
+.facilities-container{
+    margin-bottom: 70px;
+}
+
 .facilities{
     display: flex;
     justify-content: space-between;
@@ -187,4 +191,95 @@ body{
 
 .experience span{
     font-size: 3em;
+}
+
+/* facts-details--------------- */
+.facts-details{
+    width: 40%;
+}
+.facts-heading{
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.facts-text{
+    margin-bottom: 50px;
+}
+
+.fact-boxes{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fact-box{
+    border: 1px solid var(--primary-color);
+    width: 170px;
+    height: 120px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.fact-box img{
+    margin-bottom: 10px;
+}
+
+.fact-box h2{
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.fact-box p{
+    color: var(--secondary-color);
+}
+
+/* sponspors-------------- */
+.sponspors-info{
+    margin-top: 80px;
+}
+
+.sponspors-details{
+    text-align: center;
+}
+
+.sponspors-details h2{
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.sponspors-details p{
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    padding: 0 250px;
+}
+
+.sponspors-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponspors-list img{
+    width: 60%;
+    margin-top: 20px;
+}
+
+/* footer------------ */
+
+
+.footer-container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+.footer-note{
+    height: 70px;
+    margin: 40px 0px 100px ;
+    border-radius: 5px;
+    background-color: rgba(255, 144, 14, 0.1);
+        margin: 0 150px;
+}
+.footer-note p{
+   text-align: center;
+   padding-top: 25px;
 }

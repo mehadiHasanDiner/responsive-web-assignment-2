@@ -76,13 +76,17 @@ body{
 }
 
 /* ------------Features Section ---------*/
+.main-section{
+    width: 1120px;
+    margin: 0 auto;
+}
 .features-container{
     margin-top: 30px;
-    padding: 0 180px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    padding-bottom: 80px;
 }
 
 .features{
@@ -119,4 +123,68 @@ body{
 
 .feature-img img{
     width: 100%;
+}
+
+/* -----------------facilities------------ */
+.facilities{
+    display: flex;
+    justify-content: space-between;
+}
+
+.facility{
+    width: 70%;
+    padding-right: 120px;
+}
+.facility-image img{
+    width: 100%;
+}
+
+.facility-heading{
+    font-size: 2.5em;
+    padding: 10px;
+    border-left: 4px solid var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.facility-text{
+    color: var(--secondary-color);
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+
+.facility-items{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.facility-item{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.facility-item p{
+    font-size: 0.9em;
+}
+
+.facility-item h4{
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.experience {
+    position: absolute;
+    bottom: -1380px;
+    left: 730px;
+    padding: 20px 50px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.experience span{
+    font-size: 3em;
 }

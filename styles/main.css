@@ -1,26 +1,35 @@
+
+/* ----------- default Styles---------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+:root{
+    --primary-color: #FF900E;
+    --secondary-color: #727272;
 }
 
 body{
     font-family: 'Work Sans', sans-serif;
 }
 
-.container{
-    width: 1280px;
-    margin:  0 auto;
-}
 
 /* ---------------------- 
        Header Styles 
 ------------------------*/
+.header-container {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 0 150px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 20px 0 50px 0;
+    padding: 20px 0 50px 0;
 }
 
 .logo{
@@ -48,14 +57,14 @@ body{
     font-size: 1em;
     text-align: center;
     padding-bottom: 20px;
-    color: #727272;
+    color: var(--secondary-color);
 }
 
 .btn-primary{
     padding: 15px 35px;
     border: none;
     border-radius: 5px;
-    background-color: #FF900E;
+    background-color: var(--primary-color);
     color: white;
     font-size: 1em;
     font-weight: 600;
@@ -63,5 +72,51 @@ body{
 
 .banner-img img{
     width: 100%;
+    margin-bottom: 20px;
 }
-    
+
+/* ------------Features Section ---------*/
+.features-container{
+    margin-top: 30px;
+    padding: 0 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 100%;
+}
+
+.feature-info{
+    padding-left: 50px;
+}
+
+.feature-black {
+    color: black;
+    font-weight: 700;
+}
+
+.feature-color {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.feature-heading {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 1.75em;
+    padding-bottom: 20px;
+}
+
+.feature-text {
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+
+.feature-img img{
+    width: 100%;
+}

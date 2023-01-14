@@ -171,6 +171,7 @@ body{
 
 .facility-item p{
     font-size: 0.9em;
+    color: var(--secondary-color);
 }
 
 .facility-item h4{
@@ -282,4 +283,5 @@ body{
 .footer-note p{
    text-align: center;
    padding-top: 25px;
+   color: var(--secondary-color);
 }

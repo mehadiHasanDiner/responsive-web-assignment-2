@@ -350,15 +350,39 @@ input {
     .features {
         grid-template-columns: repeat(1, 1fr);
     }
-    .feature-img{
-        max-width: 100%;
-    }
 
     .footer-note{
         margin: 0 auto;
+        padding: 0;
+        width: 100%;
     }
-    .hide{
+
+    .feature-img {
+        width: 50%;
+    }
+    .facilities{
+        flex-direction: column;
+    }
+    .facilities button{
+        position: fixed;
+    }
+    .facility-image{
+        width: 50%;
+    }
+
+    .fact-boxes{
+        flex-direction: column;
+    }
+    .future-section{
+        flex-direction: column;
+        padding: 0;
+        margin: 0 auto;
+    }
+.subscirbe-panel{
+    padding: 0;
+}
+    /* .hide{
         display: none;
     }
-    
+     */
 }

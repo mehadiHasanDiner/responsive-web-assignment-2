@@ -331,6 +331,32 @@ input {
 /* Mobile Device */
 
 @media only screen and (max-width:576px) {
+    .header-container{
+        padding: 0;
+    }
+    .nav-link a{
+        display: block;
+        padding-top: 10px;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .features-container{
+        flex-direction: column;
+    }
+
+    .features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-img{
+        max-width: 100%;
+    }
+
+    .footer-note{
+        margin: 0 auto;
+    }
     .hide{
         display: none;
     }
